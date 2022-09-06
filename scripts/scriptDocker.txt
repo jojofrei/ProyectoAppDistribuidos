@@ -1,0 +1,30 @@
+sudo apt update -y
+sudo apt install git -y
+
+
+
+
+
+docker run --name myadmin -d -e PMA_HOST=distribuidosdb.cuodwnwsufjg.us-east-1.rds.amazonaws.com -p 8080:80 phpmyadmin
+
+ssh -i serverkeys.pem ubuntu@54.226.159.151 
+
+docker login -u jojofrei -p Joe010798 docker.io
+docker push jojofrei/distribuidos-app:latest
+
+
+
+
+jmeter -n -t "location of test file" -l "result file" -e -o "location of reports folder"jmeter -n -t "location of test file" -l "result file" -e -o "location of reports folder"
+
+
+
+
+jmeter -n -t "C:\Users\joejo\Desktop\JMeter\inicio.jmx" -l "C:\Users\joejo\Desktop\JMeter\excl1.csv" -e -o "C:\Users\joejo\Desktop\JMeter\Reporte1"
+
+
+jmeter -n -t "C:\Users\joejo\Desktop\JMeter\home.jmx" -l "C:\Users\joejo\Desktop\JMeter\excl2.csv" -e -o "C:\Users\joejo\Desktop\JMeter\Reporte2"
+
+
+
+
